@@ -1,0 +1,6 @@
+{
+  "authorized_imports": ["math", "collections", "itertools", "re", "json"],
+  "allowed_directories": ["/testbed", "/tmp/agent"],
+  "max_execution_time_seconds": 30,
+  "max_memory_mb": 512
+}

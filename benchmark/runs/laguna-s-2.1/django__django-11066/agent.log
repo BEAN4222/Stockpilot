@@ -1,0 +1,16 @@
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+616d7555816364bcef8e8648dfe6af5e254d5c1790bd6b72b8017c9b71216543
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+success=True iterations=6 error=None

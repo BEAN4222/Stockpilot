@@ -1,0 +1,35 @@
+   Building agent-smith @ file:///home/suna/outter/agentSmith
+      Built agent-smith @ file:///home/suna/outter/agentSmith
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 0.80ms
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+Trying to pull docker.io/swebench/sweb.eval.x86_64.django_1776_django-11066:latest...
+Getting image source signatures
+Copying blob sha256:53752545c9b26814a5dadb2ac5d26e71ee039f17d72ee04fbc55e8e14a42966e
+Copying blob sha256:fd3f01088aa854fa99907bd918d9bc8146064c2f452aae3e07d61a6244ca9968
+Copying blob sha256:39a945af8df2ad9343f141c82355d3f2c4b576d432eda34c460d630607462b60
+Copying blob sha256:0ddda5039dab8b2772d0f65857071df489438384259b8fabd0a7882656cf8ca0
+Copying blob sha256:407de719c2d3bde9e1d31481e451ac465ef6cdcf90f48b446b000dd907979233
+Copying blob sha256:079027039e9d5fa1677dd462c60fd9240097243a87ff8a124fffbd16f909c266
+Copying blob sha256:b00f0898ade11ff6f487ac872cd8623213992d8f10ee41a5d798949892f8c01c
+Copying blob sha256:57d8c8824f066b69f765fab96e977938bf8e785700abf524bcc68ca7b1740e6a
+Copying blob sha256:14998a9e7fdc50fb31b9fe295b301e78ad9ec33b410a6575c3981583c3a40504
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying config sha256:2686cee5bc931b3180c9a4a91ca08772a0b480781af75c71bab1001f0bd7ecc3
+Writing manifest to image destination
+2686cee5bc931b3180c9a4a91ca08772a0b480781af75c71bab1001f0bd7ecc3
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+a15ad28e4880215650143e2ba46c4895215a3c60e59a4649662ec8e465bf3c2f
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+success=True iterations=9 error=None

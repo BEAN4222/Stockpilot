@@ -1,0 +1,5 @@
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+time="2026-10-03T14:53:08+02:00" level=warning msg="The input device is not a TTY. The --tty and --interactive flags might not work properly"
+3d5663f5c46a1895d189a2b5cdf415d9d6b22022bedfe5a3b2271230c0344173
+Processing request of type ListToolsRequest
+success=False iterations=0 error=LLM request failed at step 1: HTTP 429 from https://openrouter.ai/api/v1/chat/completions: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1791072000000"},"limit_source":"openrouter_free_tier_daily","remedy_hint":"Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.","provider_name":null}},"user_id":"user_3JSNMxodsR7uCJrr8U3ByjZWfgP"}

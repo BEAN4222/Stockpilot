@@ -1,0 +1,19 @@
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+ef8c35f42cfad567697f05caf2f8e21ac72105280103fd9922351ca77261b09b
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+success=False iterations=30 error=Reached max iterations (30) without final_answer

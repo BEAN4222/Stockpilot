@@ -1,0 +1,4 @@
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+dae44cadf35c1af8138e4e89d8962d007f6825c06abdf24e98c14f9ee345c664
+Processing request of type ListToolsRequest
+success=False iterations=21 error=LLM request failed at step 22: HTTP 429 from https://openrouter.ai/api/v1/chat/completions: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"poolside/laguna-s-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Poolside","is_byok":false,"limit_source":"upstream_provider_shared_pool","remedy_hint":"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider rout

@@ -1,0 +1,54 @@
+diff --git a/common/agent_loop.py b/common/agent_loop.py
+index 157f4d2..6a623ca 100644
+--- a/common/agent_loop.py
++++ b/common/agent_loop.py
+@@ -240,49 +240,6 @@ connected to the container.
+    only submit exactly what get_patch() returned.
+ Explore before you edit: read enough of the surrounding code to understand
+ what you're changing, and only touch what's needed to fix the issue.
+-
+-Example
+--------
+-Issue: Vector.__add__ raises when adding the zero vector.
+-
+-Thought: I look for the Vector class definition first.
+-```python
+-print(search_function_or_class_definition_in_code(name="Vector"))
+-```
+-<end_code>
+-Observation:
+-/testbed/sympy/physics/vector/vector.py:20 class Vector:
+-
+-Thought: I read the __add__ method in that area.
+-```python
+-print(read_file(filepath="/testbed/sympy/physics/vector/vector.py", start_line=1, end_line=60))
+-```
+-<end_code>
+-Observation:
+-   ...
+-   45      def __add__(self, other):
+-   46          return Vector(self.args + other.args)
+-   ...
+-
+-Thought: I fix it to special-case zero, then re-run the tests.
+-```python
+-print(edit_file(
+-    filepath="/testbed/sympy/physics/vector/vector.py",
+-    old_str="    def __add__(self, other):\n        return Vector(self.args + other.args)",
+-    new_str="    def __add__(self, other):\n        if other == 0:\n            return self\n        return Vector(self.args + other.args)",
+-))
+-print(run_tests())
+-```
+-<end_code>
+-Observation:
+-[run_tests] tests passed
+-
+-Thought: Tests pass, I get the diff and submit it.
+-```python
+-patch = get_patch()
+-final_answer(patch)
+-```
+-<end_code>
+ """
+     else:
+         task_instructions = f"For {benchmark} tasks: use the tools above to solve the task, then submit with final_answer."
