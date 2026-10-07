@@ -1,0 +1,24 @@
+{
+  "follow_name": "Berkshire Hathaway",
+  "follow_cik": "0001067983",
+  "ticker_overrides": {},
+  "min_weight_pct": 0.0,
+  "only_target_symbols": true,
+
+  "rebalance_drift_pct": 10,
+  "min_trade_usd": 1,
+
+  "max_order_usd": 2000,
+  "max_position_pct": 30,
+  "min_cash_reserve_pct": 2,
+  "max_orders_per_day": 60,
+  "market_slippage_pct": 1.0,
+
+  "cycle_minutes": 1440,
+  "max_steps_per_cycle": 60,
+
+  "data_feed": "iex",
+  "strategy_file": "strategy.md",
+  "log_dir": "logs",
+  "cache_dir": "cache"
+}
